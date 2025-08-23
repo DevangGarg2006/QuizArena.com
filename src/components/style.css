@@ -1,0 +1,6 @@
+
+.nav-link:hover {
+    color: rgb(212, 201, 52); /* Gold or any color you like */
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
