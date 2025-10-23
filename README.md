@@ -1,5 +1,5 @@
 
-```markdown
+
 # 🎯 QuizArena
 
 **QuizArena** is a sleek and interactive quiz web app built with React, designed to challenge your knowledge across a variety of topics (like History, General Knowledge, Animals, and Sports). It fetches real-time trivia questions from the [Open Trivia Database](https://opentdb.com/) API, offering a dynamic and engaging experience for users.
