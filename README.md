@@ -1,3 +1,5 @@
+
+```markdown
 # 🎯 QuizArena
 
 **QuizArena** is a sleek and interactive quiz web app built with React, designed to challenge your knowledge across a variety of topics (like History, General Knowledge, Animals, and Sports). It fetches real-time trivia questions from the [Open Trivia Database](https://opentdb.com/) API, offering a dynamic and engaging experience for users.
@@ -35,3 +37,57 @@
 ```bash
 git clone https://github.com/DevangGarg2006/QuizArena.git
 cd quizArena
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Start the development server
+
+```bash
+npm start
+```
+
+> The app will run on `http://localhost:3000` by default.
+
+---
+
+## 🔗 API Integration
+
+QuizArena uses [OpenTDB](https://opentdb.com/api_config.php) to fetch trivia questions. No authentication is required.
+
+### Sample API Call
+
+```bash
+https://opentdb.com/api.php?amount=10&category=27
+```
+
+### Parameters Used
+
+- `amount`: Number of questions  
+- `category`: Quiz category (e.g., General Knowledge, Science, etc.)
+
+---
+
+## 🧪 Testing
+
+To run tests:
+
+```bash
+npm test
+```
+
+Uses **Jest** and **React Testing Library** for unit and integration tests.
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to improve.
+
+---
+
+```
